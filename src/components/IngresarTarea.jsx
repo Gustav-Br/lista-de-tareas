@@ -20,7 +20,6 @@ function IngresarTarea(props) {
       completada: false
     };
 
-    setInput('');
     props.onSubmit(tareaNueva);
     setInput('');
   };
