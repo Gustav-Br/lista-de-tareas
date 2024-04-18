@@ -1,0 +1,28 @@
+.ingresar-tarea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-tarea {
+  width: 350px;
+  font-size: 18px;
+  background-color: #e4f0fb;
+  padding: 14px 30px;
+  border-radius: 6px 0 0 6px;
+  border: 2px solid #055005;
+}
+
+.boton-tarea {
+  padding: 16px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  outline: none;
+  background-color: #003815;
+  color: azure;
+  text-transform: capitalize;
+}
