@@ -3,8 +3,8 @@ import '../style/IngresarTarea.css'
 import { v4 as uuidv4 } from 'uuid';
 
 
-function IngresarTarea(props) {
-
+function IngresarTarea({ addTask }) {
+  console.log(addTask);
   const [input, setInput] = useState('');
 
   const handleChange = e => {
@@ -20,8 +20,8 @@ function IngresarTarea(props) {
       completada: false
     };
 
-    props.onSubmit(tareaNueva);
     setInput('');
+    addTask(tareaNueva);
   };
 
   return (
