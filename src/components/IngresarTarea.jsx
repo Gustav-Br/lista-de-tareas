@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 function IngresarTarea({ addTask }) {
-  console.log(addTask);
+
   const [input, setInput] = useState('');
 
   const handleChange = e => {

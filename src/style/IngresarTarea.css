@@ -6,17 +6,17 @@
 }
 
 .input-tarea {
-  width: 350px;
-  font-size: 18px;
+  width: 490px;
+  font-size: 19px;
   background-color: #e4f0fb;
-  padding: 14px 30px;
+  padding: 17px 30px;
   border-radius: 6px 0 0 6px;
   border: 2px solid #055005;
 }
 
 .boton-tarea {
-  padding: 16px;
-  font-size: 18px;
+  padding: 19px;
+  font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
   border: none;
   border-radius: 0 6px 6px 0;
