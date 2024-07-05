@@ -22,11 +22,9 @@ Aplicación creada en React que permite crear una lista de tareas. Permite agreg
    ```bash
    git clone https://github.com/Gustav-Br/lista-de-tareas.git
 
-
 2. Navega al directorio del proyecto: 
    ```bash
    cd lista-de-tareas
-
 
 3. Instala las dependencias:
    ```bash
@@ -41,8 +39,6 @@ Aplicación creada en React que permite crear una lista de tareas. Permite agreg
    ```
 
 Abre http://localhost:3000 para ver la aplicación en el navegador.
-
-
 
 
 ## Contacto
